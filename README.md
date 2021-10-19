@@ -45,3 +45,15 @@ During the first session, the students will be asked to form a team of 3-4. Each
 - <b>Tardiness:</b> Students who arrive late for a class by more than 15 minutes are considered to have missed that class (i.e. attendence score will be subtracted).
 - <b>Collaboration versus plagiarism:</b> Students are encouraged to discuss about the assignments and help other students. However, copying codes of other students is considered plagiarism which will result in a "0" grade for that assignment.
 - <b>Assignment submission:</b> Each weekly assignment must be submitted to the instructor (email: dumrong.mai@mahidol.ac.th and CC naruemon.medbif@gmail.com) by the following <b><u>Wednesday before 9AM</u></b>. A late submission will result in "1" point substraction per calendar day. An R script and a presentation file for the team assignment must be shared with the instructor and other students by 9AM of the presentation day.
+
+## Useful resources
+- Learn R with swirl: https://swirlstats.com/students.html
+- Biostatistics: http://www.biostathandbook.com/analysissteps.html
+- Example R scripts for advanced analyses and data visualizations: http://www.sthda.com/english/
+
+## Instructor
+Dumrong Mairiang, PhD
+Email: dumrong.mai@mahidol.ac.th, dumrong.mai@biotec.or.th
+Tel: 02-419-2685
+Office: Division of Bioinformatics and Data Managment for Research
+11th floor, SiMR building, Faculty of Medicine Siriraj Hospital
