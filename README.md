@@ -52,8 +52,14 @@ During the first session, the students will be asked to form a team of 3-4. Each
 - Example R scripts for advanced analyses and data visualizations: http://www.sthda.com/english/
 
 ## Instructor
-Dumrong Mairiang, PhD<p/>
-Email: dumrong.mai@mahidol.ac.th, dumrong.mai@biotec.or.th<p/>
-Tel: 02-419-2685<p/>
-Office: Division of Bioinformatics and Data Managment for Research<p/>
+Dumrong Mairiang, PhD<br/>
+Email: dumrong.mai@mahidol.ac.th, dumrong.mai@biotec.or.th<br/>
+Tel: 02-419-2685<br/>
+Office: Division of Bioinformatics and Data Managment for Research<br/>
 11th floor, SiMR building, Faculty of Medicine Siriraj Hospital
+
+## Course coordinator
+Assistant professor Dr. Bhoom Suktitipat, MD, PhD<br/>
+Graduate Program in Medical Bioinformatics<br/>
+Department of Biochemistry, Faculty of Medicine Siriraj Hospital &<br/>
+Integrative Computational BioScience Center, Mahidol University
