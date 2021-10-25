@@ -27,8 +27,8 @@ print(comseq)
 
 ### 2) Hardy-Weinberg calculator
 You will write a function that will accept a phenotype frequency of a dominant trait and generate a result vector containing five numbers as follows:
-1. a phenotype frequency of a recessive trait (i.e. a genotype frequency of homozygous recessive allels)
-2. a genotype frequency of homozygous dominant allels
+1. a phenotype frequency of a recessive trait (i.e. a genotype frequency of homozygous recessive allele)
+2. a genotype frequency of homozygous dominant allele
 3. a genotype frequency of heterozygous
 4. a frequency of dominant allele
 5. a frequency of recessive allele
