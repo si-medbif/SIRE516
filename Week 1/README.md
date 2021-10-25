@@ -12,7 +12,7 @@
 ## Assignments
 Select one of these two assignments. You may do both, but only one will be graded. You will write your own function so <b>do not use a function from an R package.</b>
 
-### 1) Reverse complementary strand generator
+### 1) Reverse complement strand generator
 You will write a function that will accept a DNA sequence of any length in a 5'->3' direction and generate a reverse complementary strand in a 5'-> 3' direction.
 
 #### Expected result
