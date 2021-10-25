@@ -1,2 +1,2 @@
-# Week 3: Basic data analysis
+# Week 3: Basic data analyses
 ## Topics
