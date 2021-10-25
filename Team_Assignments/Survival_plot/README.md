@@ -10,6 +10,8 @@ You will reproduce Figure 2G of Suputtamongkol et al., (https://pubmed.ncbi.nlm.
 - Censored marks for the patients with no NS1 clearance.
 - Life table is optional (The part of plot showing "Number at risk").
 
+The article is behind a paywall. Please use mahidol VPN to access the article.
+
 ## Figure 2G
 ![image](https://user-images.githubusercontent.com/9914505/138673680-1813e360-24aa-487a-a587-a6ae00d3d57b.png)
 
