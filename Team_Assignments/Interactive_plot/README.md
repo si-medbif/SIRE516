@@ -16,5 +16,5 @@ Your interactive plot must allow the follows:
 
 ## Hints
 - Simple method: "manipulate" package
-- Advance method: R-shiny (i.e. you will create a deployable/publishable web application with R-shiny)
+- Advanced method: R-shiny (i.e. you will create a deployable/publishable web application with R-shiny)
 - Your interactive plot must be presented through RStudio. The R base IDE will not work with an interactive plot.
