@@ -32,7 +32,7 @@ During the first session, the students will be asked to form a team of 3-4. Each
 - R script runs without an error: 10/30
 - R script returns a correct answer (both formats and values) for the provided test data: 4/30
 - R script returns correct answers (both formats and values) for any possible data: 6/30
-- Presentation scores given by other students (see ... for grading criteria): 10/30
+- Presentation scores given by other students (see https://forms.gle/sS7TFFJmWs6LUneL8 for a grading form): 10/30
 
 ## Grading
 - A > 90%
