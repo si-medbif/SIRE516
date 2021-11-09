@@ -7,7 +7,6 @@
 5. Data Transformation
 
 ## Assignment
-In this assignment, the grading will be different from the syllabus.<p/>
 
 In a report for clinical study, the first table shown before any other results is almost always a
 table describing demographics and baseline characteristics of the study population. This table
