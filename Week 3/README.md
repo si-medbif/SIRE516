@@ -14,7 +14,7 @@ Your tasks are:
 1) Create a table summarizing each variable disease and non-disease group (i.e. present representative values such median(IQR) or count(%)).
 2) Compare each variable between disease and non-disease group with an appropriate test and put the p-values in the table. Your table should look like this.<p/>
 ![image](https://user-images.githubusercontent.com/9914505/139024370-cf1de935-02b9-4a3b-82a3-8f1615c34f83.png)
-3) Create and select an optimal logisitic regression model that predict whether a participant will develop heart disease. We will discard participants with missing data. (An imputation of the missing data is usually more appropriate in a real analysis.) 
+3) Create and select an optimal logisitic regression model that predict whether a participant will develop heart disease. You might have to discard participants with missing data. (An imputation of the missing data is usually more appropriate in a real analysis.) 
 
 The dataset can be downloaded (with a registration) from https://biolincc.nhlbi.nih.gov/teaching/. The dataset and data dictionary are also available here: https://github.com/GauravPadawe/Framingham-Heart-Study
 
