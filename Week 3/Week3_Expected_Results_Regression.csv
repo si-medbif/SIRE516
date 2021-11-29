@@ -1,0 +1,9 @@
+Variables,Odds ratio (95%CI),P-values
+Males,1.739 (1.411-2.146),<0.001
+Age (years),1.068 (1.054-1.081),<0.001
+"Number of cigarettes smoked each day, median (IQR)",1.020 (1.011-1.028),<0.001
+Experienced any stroke prior to exam,2.121 (0.792-5.406),0.120
+Required any hypertension treatment prior to exam,1.253 (0.961-1.632),0.095
+Total cholesterol (mg/dL),1.002 (1.000-1.004),0.044
+Systolic Blood Pressure (mmHg),1.014 (1.009-1.020),<0.001
+Blood glucose level (mg/dL),1.007 (1.004-1.011),<0.001
