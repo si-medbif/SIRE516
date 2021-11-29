@@ -21,4 +21,4 @@ The dataset can be downloaded (with a registration) from https://biolincc.nhlbi.
 
 ## Files to be submitted
 1. R script for exploratory data analysis and logistic regression analysis. Your R script does not need to create an entire summary table, but it should at least print values in each cell in the table.
-2. The summary tables including the table from exploratory data analysis with univariate comparison and the table reporting optimal multivariate logistic regression results (MS Excel or CSV).
+2. The summary tables including the table from exploratory data analysis with univariate comparison and the table reporting optimal multivariate logistic regression results (MS Excel or CSV). Expected results are 'Week3_Expected_Results_EDA.csv' and 'Week3_Expected_Results_regression.csv'. Do not worry if your p-values are not identical to expected results. Your optimal model may be different from the expected result so please describe how you selected the model in you R script. 
