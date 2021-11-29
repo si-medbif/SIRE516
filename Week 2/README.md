@@ -16,7 +16,7 @@ performing further analysis.<p/>
 You will be given three files.
 1. dataset.csv: a comma-separated values file containing a study dataset (i.e. this is your test dataset).
 2. dataset_dictionary.xlsx: A Microsoft Excel file containing data dictionary that describes each columns of the dataset in “dataset.csv”
-3. example.xlsx: An example of the baseline/demographic table (i.e. expected format, but<b><u> not expected results</u></b>)
+3. example.xlsx: An example of the baseline/demographic table (i.e. expected results)
 
 The "dataset.csv" file contains some errors. Please check and correct the file. Write a report (MS word or plain text are acceptable) showing all the errors in this file (2 points).
 
