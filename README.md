@@ -1,4 +1,4 @@
-# Course syllabus (AY2025)
+# Course syllabus (AY2021)
 
 # SIRE 516: R Programming for Bioinformaticians
 
