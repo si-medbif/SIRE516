@@ -32,16 +32,6 @@ library(scRNAseq)
 
 #### Load the data from Lawlor et al. 
 dat <- LawlorPancreasData(legacy = FALSE)
-
-#### Extract geneID (Labels for genes)
-genes <- rownames(dat)
-
-#### Extract cell type (Labels for cell types)
-cells <- dat@colData$`cell type`
-
-#### Extract diagnosis (OPTIONAL)
-dx <- dat@colData$disease
-
-#### Extract count data (The main data)
-mf <- t(dat@assays@data$counts)
 ```  
+
+`dat` is a `SingleCellExperiment` object. You will need to use `@` to access each component of `dat`. For example, `dat@colData` is for accessing the metadata of each scRNAseq sample (e.g. patient information, cell type). You may need a combination of `@` and `$` to access the certain data.
