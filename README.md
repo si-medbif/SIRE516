@@ -19,6 +19,7 @@ Skill in R programming language for managing bioinformatic data, exploratory dat
 - R script runs without an error: 5/10
 - R script returns a correct answer (both formats and values) for the provided test data: 2/10
 - R script returns correct answers (both formats and values) for any possible data: 3/10
+- Challange: R script fulfills the challenge: +2/10 (+1.5% of your final grade)
 
 ### Team project
 There are thousands of R packages available in the CRAN (https://cran.r-project.org/) and Bioconductor (https://www.bioconductor.org/) for performing various data analyses and presenting the findings, and it is difficult to cover all of them in this class. The ultimate purpose of this class is to provide students with sufficient knowledge of the R programming language in order to enable them to find and use appropriate R packages for analyzing and visualizing their own data set.  
