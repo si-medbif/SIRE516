@@ -30,7 +30,7 @@ Your task is to write a Dockerfile with the following specifications:
 $ docker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 your_image_name:tag
 ```
 
-## Hints
+<b>Hints</b>
 - You may pull a docker image from https://rocker-project.org/ in your Dockfile. You may use documentations and sample Dockerfiles from https://rocker-project.org/ to guide you how to write a Dockerfile.
 - Use the following command to build a docker image from your Dockerfile (Make sure you change the current directory to the directory that contains your Dockerfile). Do not omit `.` at the end of the command.
 ```
