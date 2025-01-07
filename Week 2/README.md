@@ -8,7 +8,7 @@
 
 ## Take-home assignment
 
-In a report for clinical study, the first table shown before any other results is almost always a
+In a report for clinical study (involving human subjects), the first table (i.e. Table 1) shown before any other results is almost always a
 table describing demographics and baseline characteristics of the study population. This table
 is essential since it shows whether there is any bias in the selection of study population. The
 table also helps investigators explore and verify the data to ensure that there is no error before
