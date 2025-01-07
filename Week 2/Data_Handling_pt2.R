@@ -214,7 +214,7 @@ url <- 'https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GD
 test <- read_html(url)
 tbls <- html_nodes(test, "table") 
 ttt <- html_table(tbls, fill = T)
-tb4 <- ttt[[4]]
+tb4 <- as.data.frame(ttt[[1]])
 #####
 
 str(tb4)
