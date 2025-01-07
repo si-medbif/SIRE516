@@ -10,39 +10,31 @@
     - Workspace
 
 ## Assignments
-Select one of these two assignments. You may do both, but only one will be graded. You will write your own function so <b>do not use a function from an R package.</b>
+R could have a reproducibility problem since an analysis generally requires R-packages that are frequently updated or upgraded. R itself is also constantly updated or upgraded. A new version of R might not be compatible with current R-packages, system libraries or even the operating system itself. 
 
-### 1) Reverse complement strand generator
-You will write a function that will accept a DNA sequence of any length in a 5'->3' direction and generate a reverse complementary strand in a 5'-> 3' direction.
+The container technology could mitigate compatability and reproducibility problems in R. The instruction file for building a container (e.g. Dockerfile) could be written to specify the versions of R, R-packages and system libraries to ensure that a R-script could be run in the identical environment.
 
-#### Expected result
+Your task is to write a Dockerfile with the following specifications:
+
+1. R version 4.4.2
+2. RStudio server
+3. Expose RStudio sever to port 8787 (so you can run RStudio via a web browser to https://localhost:8787)
+4. Install the following R-packages:
+   - tidyverse
+   - reshape2
+   - BiocManager (i.e. bioconductor)
+
+<b>You will need to submit a Dockerfile.</b> Make sure your docker image could be run with this command (run with `sudo` if needed):
 
 ```
-seq <- 'ATCG' #This is your test data
-comseq <- yourFunction(seq)
-print(comseq)
-
-'CGAT'
+$ docker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 your_image_name:tag
 ```
 
-### 2) Hardy-Weinberg calculator
-You will write a function that will accept a phenotype frequency of a dominant trait and generate a result vector containing five numbers as follows:
-1. a phenotype frequency of a recessive trait (i.e. a genotype frequency of homozygous recessive allele)
-2. a genotype frequency of homozygous dominant allele
-3. a genotype frequency of heterozygous
-4. a frequency of dominant allele
-5. a frequency of recessive allele
-
-For more information regarding Hardy-Weinberg equilibrium please refer to :
-Griffiths AJF, Miller JH, Suzuki DT, et al. An Introduction to Genetic Analysis. 7th edition. New York: W. H. Freeman; 2000. Box 24-2, Hardy-Weinberg Equilibrium. Available from: https://www.ncbi.nlm.nih.gov/books/NBK22048/box/A3848/
-
-
-#### Expected result
+## Hints
+- You may pull a docker image from https://rocker-project.org/ in your Dockfile. You may use documentations and sample Dockerfiles from https://rocker-project.org/ to guide you how to write a Dockerfile.
+- Use the following command to build a docker image from your Dockerfile (Make sure you change the current directory to the directory that contains your Dockerfile). Do not omit `.` at the end of the command.
 ```
-dom_phe <- 0.51 #This is your test data. Frequency is between 0 to 1.
-result <- yourFunction(dom_phe)
-print(result)
-
-[1] 0.49 0.09 0.42 0.3 0.7
+$ docker build -t your_image_name:tag .
 ```
-
+- `install2.r ` is a command to install r-packages in the terminal. Use this command in your Dockerfile.
+- For Dockerfile tutorial: https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
