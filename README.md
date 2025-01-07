@@ -17,8 +17,8 @@ Skill in R programming language for managing bioinformatic data, exploratory dat
 
 ### Coding assignment grading (10/10)
 - R script runs without an error: 5/10
-- R script returns a correct answer (both formats and values) for the provided test data: 2/10
-- R script returns correct answers (both formats and values) for any possible data: 3/10
+- R script returns a correct answer (both formats and values) for the provided test data: 2/10 (or 5/10 if there is no blinded test data).
+- R script returns correct answers (both formats and values) for any possible data: 3/10 (if there is a blinded test data)
 - Challange: R script fulfills the challenge: +2/10 (+1.5% of your final grade)
 
 ### Team project
