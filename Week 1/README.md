@@ -9,7 +9,7 @@
     - Help
     - Workspace
 
-## Assignments
+## Take-home assignments
 R could have a reproducibility problem since an analysis generally requires R-packages that are frequently updated or upgraded. R itself is also constantly updated or upgraded. A new version of R might not be compatible with current R-packages, system libraries or even the operating system itself. 
 
 The container technology could mitigate compatability and reproducibility problems in R. The instruction file for building a container (e.g. Dockerfile) could be written to specify the versions of R, R-packages and system libraries to ensure that a R-script could be run in the identical environment.
