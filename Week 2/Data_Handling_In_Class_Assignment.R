@@ -19,4 +19,4 @@ for(i in 2:ncol(tb)){
 #1) Melt table 'tb'
 #2) Correct data type of each column
 #3) Use 'aggregate()' to find mean PPP from 2000 to 2009 for each country
-#4) Challenge: Generate a table showing countries with the highest for each year from 2000 to 2009 (Print each cell in R script and copy/paste to MS Excel is OK ).
+#4) Challenge: Generate a table showing countries with the highest PPP for each year from 2000 to 2009 (Print each cell in R script and copy/paste to MS Excel is OK ).
