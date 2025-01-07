@@ -37,5 +37,5 @@ $ docker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 your_image_name:tag
 ```
 $ docker build -t your_image_name:tag .
 ```
-- `install2.r ` is a command to install r-packages in the terminal. Use this command in your Dockerfile. However, this command might not work with the challenge.
+- `install2.r ` is a command to install r-packages in the terminal. Use this command in your Dockerfile. However, this command might not work with the challenge (install from source files).
 - For Dockerfile tutorial: https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
