@@ -29,7 +29,7 @@ Hint3: Count and percent = indexing and nrow() or table() or cut() and table() <
 
 Submit the <b>R script (5 points)</b> and the <b>final table (in CSV or Excel format, 3 points)</b>. Your R script does not need to print an entire final table. It may print one 'cell' at a time so you could copy the result and paste in the Excel file. <p/>
 
-Sample R script
+<b>Sample R script</b>
 ```
 res <- someFunction(data)
 
@@ -38,7 +38,7 @@ print(res)
 '25.5±4.7' #Mean and SD result  
 ```
 
-## Files to be submitted
+<b> Files to be submitted </b>
 1. Report for data correction (MS Word or Plain TXT)
 2. R script for exploratory data analysis
 3. Baseline/demographic table (MS Excel or CSV)
