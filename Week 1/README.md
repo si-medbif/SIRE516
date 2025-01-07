@@ -18,7 +18,7 @@ Your task is to write a Dockerfile with the following specifications:
 
 1. R version 4.4.2
 2. RStudio server
-3. Expose RStudio sever to port 8787 (so you can run RStudio via a web browser to https://localhost:8787)
+3. Expose RStudio sever to port 8787 (so you can run RStudio via a web browser to (https://localhost:8787)
 4. Install the following R-packages:
    - tidyverse
    - reshape2
