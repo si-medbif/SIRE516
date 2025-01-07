@@ -23,6 +23,7 @@ Your task is to write a Dockerfile with the following specifications:
    - tidyverse
    - reshape2
    - BiocManager (i.e. bioconductor)
+5. <b>Challenge (Optional):</b> Use `wget` to download a specific version of each R-package in #4. Install R-packages from source files. This will guarantee that your docker image will be identical everytime you build from the Dockerfile.
 
 <b>You will need to submit a Dockerfile.</b> Make sure your docker image could be run with this command (run with `sudo` if needed):
 
@@ -36,5 +37,5 @@ $ docker run --rm -ti -e PASSWORD=yourpassword -p 8787:8787 your_image_name:tag
 ```
 $ docker build -t your_image_name:tag .
 ```
-- `install2.r ` is a command to install r-packages in the terminal. Use this command in your Dockerfile.
+- `install2.r ` is a command to install r-packages in the terminal. Use this command in your Dockerfile. However, this command might not work with the challenge.
 - For Dockerfile tutorial: https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/
