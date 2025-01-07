@@ -6,7 +6,7 @@
 4. Useful Functions For Data  Preparation
 5. Data Transformation
 
-## Assignment
+## Take-home assignment
 
 In a report for clinical study, the first table shown before any other results is almost always a
 table describing demographics and baseline characteristics of the study population. This table
@@ -19,7 +19,7 @@ You will be given three files.
 3. example.xlsx: An example of the baseline/demographic table (i.e. expected formats)
 4. Week2_Expected_Results.xlsx: A table with expected results. You may select to show either mean/SD or median/IQR (i.e. you do not need to show both).
 
-The "dataset.csv" file contains some errors. Please check and correct the file. Write a report (MS word or plain text are acceptable) showing all the errors in this file (2 points).
+The "dataset.csv" file contains some errors. Please check and correct the file. <b>Write a report (MS word or plain text are acceptable) showing all the errors in this file (2 points)</b>.
 
 You will create an R script for exploratory data analysis. Fill out each row of the baseline/demographics table. Please use correct statistical values (e.g. mean, median), units and decimal places of each row based on “example.xlsx”. 
 
@@ -27,7 +27,7 @@ Hint1: Mean = mean(), SD = sd() <p/>
 Hint2: Median = median(), IQR = quantile(…, probs = c(0.25,0.75)) <p/>
 Hint3: Count and percent = indexing and nrow() or table() or cut() and table() <p/>
 
-Submit the R script (5 points) and the final table (in CSV or Excel format, 3 points). Your R script does not need to print an entire final table. It may print one 'cell' at a time so you could copy the result and paste in the Excel file. <p/>
+Submit the <b>R script (5 points)</b> and the <b>final table (in CSV or Excel format, 3 points)</b>. Your R script does not need to print an entire final table. It may print one 'cell' at a time so you could copy the result and paste in the Excel file. <p/>
 
 Sample R script
 ```
