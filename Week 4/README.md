@@ -18,7 +18,8 @@ Since DNA samples from ancient humans were damaged, several techniques must be p
 3) PCA
 4) Visualization of PC1 and PC2
 
-<b>Expected result</b>
+<b>Expected result</b></br>
+
 ![image](https://user-images.githubusercontent.com/9914505/140707137-7a245226-42bb-4880-a533-cd3d810c1305.png)
 
 <b>Hint</b>
