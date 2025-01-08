@@ -6,7 +6,7 @@
 4. Add other elements to ggplot2
 5. Multiple plots
 
-## Assignment
+## Take-home assignment
 Principle component analysis (PCA) is an important tool in data visualization. PCA reduces multi-dimesional data  
 by combining all features (variables) in the data and computing principle components (PC). The first principle component (PC1) explains the most variance in the data. The second principle component (PC2) explains the most variance remaining after PC1. The process is continuing until the last PC is calculated. Frequently,  PC1 and PC2 could sufficiently explain the majority of the variance to the data. Thus, the multi-dimesional data could be projected on a 2D surface with PCA. In addition, PCA might reveal clusters of the data indicating potential relationships among the data points in the same cluster.
 
@@ -18,10 +18,10 @@ Since DNA samples from ancient humans were damaged, several techniques must be p
 3) PCA
 4) Visualization of PC1 and PC2
 
-## Expected result
+<b>Expected result</b>
 ![image](https://user-images.githubusercontent.com/9914505/140707137-7a245226-42bb-4880-a533-cd3d810c1305.png)
 
-## Hint
+<b>Hint</b>
 Please use the following code as a guide
 
 ```
