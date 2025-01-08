@@ -20,10 +20,10 @@ Since DNA samples from ancient humans were damaged, several techniques must be p
 
 <b>Expected result</b></br>
 
-![image](https://user-images.githubusercontent.com/9914505/140707137-7a245226-42bb-4880-a533-cd3d810c1305.png)
+![image](https://github.com/user-attachments/assets/35fa4121-8b7f-4ff0-8e1e-f207ffc05806)
 
 <b>Hint</b>
-Please use the following code as a guide
+Please use the following code as a guide. 
 
 ```
 #### Installation #####
@@ -32,21 +32,32 @@ Please use the following code as a guide
 
 library(admixtools)
 library(ggplot2)
+library(ggfortify)
 
 # STEP 1: Load genotype files in "packedancestrymap" format. Edit the code below.
 sea2 <- read_packedancestrymap("RawData/SEA2/SEA2") # Path to your SEA2.geno, SEA2.ind, SEA2.snp file
 
-# STEP 2: Discard any SNP (i.e. row) with missing genotype results (i.e. in sea2$geno).
+# STEP 2: Discard any SNP with missing genotype results (i.e. in sea2$geno). Also check whether the data need to be transposed.
 # Note that in the real practice, an imputation technique should be used to fill out the missing SNPs.
 
-# STEP 3: Perform principle component analysis (PCA) with prcomp() function.
+# STEP 3: Convert sea2$geno processed in STEP 2 to data.frame
+
+# STEP 4: Merge ethnicity (i.e. sea2$ind) to the data.frame from sea2$geno. You might need to add a sample ID column to sea2$geno data.frame for merging the tables.
+
+# STEP 5: Perform principle component analysis (PCA) with prcomp() function. Make sure you extract appropriate columns from the data.frame from STEP 4
 # Note that this PCA is a simple one. Advanced/Specific PCA techniques will be required for the real
 # analysis.
 
-# STEP 4: Convert PCA result to data.frame
-
-# STEP 5: Merge ethnicity (i.e. sea2$ind) to the data.frame
-
-# STEP 6: Visualize PC1 and PC2 with ggplot
+# STEP 6: Visualize PC1 and PC2 with autoplot(). Make sure to use different colors for different ethnicity
 
 ```
+You do not need to follow the code shown above as long as you can correctly generate a PCA plot. For example you could try 'ggbiplot' package.
+
+<b>Challenge</b>
+Plot PCA for the ancient data set (https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/SEA.tar.gz). Since the samples are ancient DNA, several SNPs are missing. Let's simply impute all missing SNPs with `1` before performing PCA. Please submit the challenge in a separate R-script.
+
+<b>Grading</b>
+- Plot a PCA: 5/10
+- Plot a PCA correctly: 7/10
+- Plot a PCA correctly with colors correctly corresponding to ethnicities: 10/10
+- Challeng: Plot a PCA correctly with colors correctly corresponding to ethnicities: 12/10 
