@@ -22,9 +22,9 @@ Skill in R programming language for managing bioinformatic data, exploratory dat
 - Challange: R script fulfills the challenge: +2/10 (+1.5% of your final grade)
 
 ### Team project
-There are thousands of R packages available in the CRAN (https://cran.r-project.org/) and Bioconductor (https://www.bioconductor.org/) for performing various data analyses and presenting the findings, and it is difficult to cover all of them in this class. The ultimate purpose of this class is to provide students with sufficient knowledge of the R programming language in order to enable them to find and use appropriate R packages for analyzing and visualizing their own data set.  
+There are thousands of R packages available in the CRAN (https://cran.r-project.org/) and Bioconductor (https://www.bioconductor.org/) for performing various data analyses and presenting the findings, and it is impossible to cover all of them in this class. The ultimate purpose of this class is to provide students with sufficient knowledge of the R programming language in order to enable them to find and use appropriate R packages for analyzing and visualizing their own data set.  
 
-During the first session, the students will be asked to form a team of 3-4. Each group will select one of "more difficult" assignments and work on it during the course of this class. In the last session, each group of students will present their work (≤ 30 minutes) including:
+During the first session, students will be asked to form a team of 3-4. Each group will select one of "more difficult" assignments and work on it during the course of this class. In the last session, each group of students will present their work (≤ 30 minutes) including:
 
 - Summary of their assignment (Background, Significance, Motivation)
 - Describe the input data (Definition of variables, type of variables)
