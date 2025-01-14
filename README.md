@@ -31,6 +31,8 @@ During the first session, students will be asked to form a team of 3-4. Each gro
 - Explain the code and the workflow
 - Explain the analysis/visualization results
 
+Please see an evaluation form for preparing your presentation (https://github.com/si-medbif/SIRE516/blob/main/SIRE516_Presentation_EvalForm.pdf).
+
 ### Team project grading (30/30)
 - R script runs without an error: 10/30
 - R script returns a correct answer for the provided data: 10/30
