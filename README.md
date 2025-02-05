@@ -48,7 +48,7 @@ During the first session, students will be asked to form a team of 3-4. Each gro
 - <b>Tardiness:</b> Students who arrive late for a class by more than 15 minutes are considered to have missed that class (i.e. attendence score will be subtracted).
 - <b>Collaboration versus plagiarism:</b> Students are encouraged to discuss about the assignments and help other students. However, copying codes of other students is considered plagiarism which will result in a "0" grade for that assignment.
 - <b> AI assistance:</b> Using an AI (e.g. ChatGPT) to completely write an R script for take-home assignments is considered a misconduct and resulting in a "0" grade for that assignment.
-- <b>Assignment submission:</b> Each weekly take-home assignment must be submitted to the instructor (email: dumrongm@gmail.com and CC aksorn.min@mahidol.edu) by the following <b><u>Monday before 9AM</u></b> (i.e. the Monday morning before the next class). A late submission will result in "1" point substraction per calendar day. An R script and a presentation file for the team assignment must be shared with the instructor and other students by 9AM of the presentation day.
+- <b>Assignment submission:</b> Each weekly take-home assignment must be submitted to the instructor (email: dumrongm@gmail.com and CC aksorn.min@mahidol.edu) by the following <b><u>Friday before 9AM</u></b> (i.e. the Friday morning before the next class). A late submission will result in "1" point substraction per calendar day. An R script and a presentation file for the team assignment must be shared with the instructor and other students by 9AM of the presentation day.
 
 ## Useful resources
 - Learn R with swirl: https://swirlstats.com/students.html
