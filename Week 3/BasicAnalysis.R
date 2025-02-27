@@ -108,6 +108,7 @@ m <- matrix(data = c(non_smoke_CA, non_smoke_not_CA, smoke_CA, smoke_not_CA) , n
 print(m)
 
 chisq.test(m)
+fisher.test(m)
 
 #### Difference in means ####
 male <- round(rnorm(n = 100 ,mean = 107, sd = 5),1)
@@ -119,7 +120,7 @@ truehist(female)
 t.test(male,female, var.equal = F, paired = F)
 wilcox.test(male,female, paired = F)
 
-#paired = T for dependent samples (e.g. Before-After mearsurements)
+#paired = T for dependent samples (e.g. Before-After measurements)
 
 #### Contingency table from counts ####
 ctable <- matrix(c(400,150,100,320), nrow = 2 , byrow = T) # Matrix fill data by column by default
