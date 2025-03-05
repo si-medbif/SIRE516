@@ -11,7 +11,7 @@ Plot the TCA cycle (Krebs cycle) from KEGG. Then use the information from the CS
 <b>Optional:</b> Add a legend on the top of the plot.
 
 ## Expected result
-![image](https://github.com/user-attachments/assets/e9c9bfce-cfa1-4020-905b-4770d5063955)
+![Rplot](https://github.com/user-attachments/assets/d0e87c5c-8121-4fff-adcb-67cadc633eae)
 
 ## Hints
 - ggkegg (Bioconductor packages)
