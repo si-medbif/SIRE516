@@ -229,7 +229,6 @@ library(reshape2)
 
 View(ChickWeight)
 
-cast_CW <- dcast(ChickWeight, chick + diet ~ time, value.var = "weight")
+cast_CW <- dcast(ChickWeight, Chick + Diet ~ Time, value.var = "weight")
 
 View(cast_CW)
-

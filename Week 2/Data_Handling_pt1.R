@@ -29,6 +29,7 @@ letters[-seq(from = 1, to = 26, by =2)]
 
 #Drop the last 7 members of 'letters' vector
 #letters[???]
+letters[-(length(letters)-6):-length(letters)]
 
 ####Accessing vector pt 3####
 vowel <- c("a","e","i","o","u")
@@ -58,7 +59,8 @@ a[flags]
 a[-flags]
 
 #Advanced user; Code might be more confusing
-a[a>=9]
+a[a>=9] 
+a[which(a>=9)]
 a[!(a>=9)]
 
 #Why use "which"? NA and NaN 
@@ -67,6 +69,7 @@ print(b)
 flags <- which(b >= 9)
 b[flags]
 b[b >= 9] #Look at the last two members
+b[which(b >= 9)]
 
 ####Accessing matrix pt 1####
 a <- runif(n = 12,min = 1,max = 10)  
@@ -101,6 +104,7 @@ am[nrow(am),ncol(am)] #Last row, Last column -> Cell/Single value
 
 #Row 2 to 4, Column1
 #am[???]
+am[2:4,1]
 
 ####Accessing data frame pt 1####
 ?mtcars #'mtcars' is a built-in data frame for 'Motor Trend Car Road Tests'
@@ -149,6 +153,8 @@ mtcars[c(1,10,12), c("mpg","gear")] #Row 1, 10 and 12; Column 'mpg' and 'gear'
 
 ####Accessing data frame pt 4####
 flags <- which(mtcars$gear < 4) #Which row has gear < 4
+
+mtcars[flags,]
 
 print(mtcars$gear < 4)
 print(which(mtcars$gear < 4))
@@ -200,11 +206,11 @@ A$d$mpg #Access column of the data frame in the list
 ?write.csv #Description of the command for saving the data 
 
 write.csv(x = mtcars, #Specify your data.frame to be saved  
-  file = "~/Desktop/R/mtcars.csv", #Specify the file name and path
+  file = "mtcars.csv", #Specify the file name and path
   na = '', #OPTIONAL: How will the missing data be shown (default = 'NA')
   row.names = FALSE #OPTIONAL: Show row.names or not (default = TRUE)
   )
 
 write.csv(x = mtcars,   
-          file = "~/Desktop/R/mtcars2.csv"
+          file = "mtcars2.csv"
 )
