@@ -62,6 +62,12 @@ Tel: 02-419-2685<br/>
 Office: Division of Medical Bioinformatics<br/>
 11th floor, SiMR building, Faculty of Medicine Siriraj Hospital
 
+Assistant professor Dr. Sawannee Sutheeworapong PhD<br/>
+Email: sawannee.sut@kmutt.ac.th<br/>
+Tel: 02-470-7405<br/>
+Division of Bioinformatics and Systems Biology<br/> 
+School of Bioresources and Technology<br/> 
+King Mongkut's University of Technology Thonburi (KMUTT)<br/>
 ## Course coordinator
 Assistant professor Dr. Bhoom Suktitipat, MD, PhD<br/>
 Graduate Program in Medical Bioinformatics<br/>
