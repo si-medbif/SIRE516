@@ -8,7 +8,7 @@ x <- -3:3
 y <- x^3
 y2 <- x^2
 
-plot(x=x ,y = y) # Point by defualt
+plot(x=x ,y = y) # Point by default
 plot(x=x ,y = y, type = "l") 
 
 plot(x=x ,y = y, type = 'n') # Blank plot
@@ -16,8 +16,8 @@ lines(x = x, y = y, col = "red") # Add first line
 lines(x = x, y = y2, col = "blue") # Add second line
 
 #### Box plot ####
-
 boxplot(Sepal.Length ~ Species, iris)
+#boxplot(Species ~ Sepal.Length, iris)
 
 #### Bar plot ####
 rows <- sample(nrow(iris),size = 97, replace = F)
@@ -31,8 +31,10 @@ barplot(tb)
 pie(tb)
 
 #### Save R plots ####
-png("PIE.png")
+#tiff("Week 4/PIE.tiff")
+jpeg("Week 4/j.jpeg")
 pie(tb)
+barplot(tb)
 dev.off()
 
 #### ggplot2: scatter plot ####
@@ -46,6 +48,8 @@ plot(Sepal.Length ~ Sepal.Width, iris) # R plot
 # Add data as scatter plot with colors of points indicatated by species
 g2 <- g + geom_point(aes_string(y = "Sepal.Length", x = "Sepal.Width", col = "Species")) 
 print(g2)
+g3 <- g + geom_point(aes(y = "Sepal.Length", x = "Sepal.Width", col = "Species")) 
+print(g3)
 
 #### ggplot2: line plot ####
 x1 <- -3:3
@@ -59,10 +63,16 @@ ggplot()+
 
 #Plot from data frame
 dat1 <- data.frame(x = x1, y1 =  y1, y2 = y2)
-rm(x1,y1,y2)
+#rm(x1,y1,y2)
+View(dat1)
+
+ggplot(data = dat1)+
+  geom_line(aes(x = x, y = y1), col = "red")+
+  geom_line(aes(x = x, y = y2), col = "blue")
+
 ggplot()+
-  geom_line(data = dat1, aes(x = x, y = y1), col = "red")+
-  geom_line(data = dat1, aes(x = x, y = y2), col = "blue")
+  geom_line(data = dat1,aes(x = x, y = y1), col = "pink")+
+  geom_line(data = dat1,aes(x = x, y = y2), col = "turquoise")
 
 #Plot from melt data frame # For multiple lines (spaghetti plot)
 library(reshape2)
@@ -104,7 +114,7 @@ gpie <- gpie + coord_polar("y", start=0)
 print(gpie)
 
 #### save ggplot2 ####
-ggsave(plot = gpie, file = "Plots/pie.tiff",width = 3, height = 3, units = "in",dpi = 600)
+ggsave(plot = gpie, file = "pie.tiff",width = 3, height = 3, units = "in",dpi = 600)
 
 
 #### Naming title and axes ####
@@ -147,6 +157,7 @@ g + scale_color_manual(name = "Species", values = c("yellow","purple","pink"))
 g + scale_fill_manual(name = "Species", values = c("#ff0000","#00ff00","#0000ff"))
 
 #### Color brewer ###
+library(MASS)
 bdat <- expand.grid(x = 1:100, y = 1:100)
 
 low <- exp(rnorm(n = 5000, mean = 1, sd = 0.5))
@@ -284,4 +295,4 @@ g3 <- ggplot(ndat, aes(x = x, y = y))+
 gall <- ggarrange(g1, g2, g3,
           labels = c("A", "B", "C"),
           ncol = 2, nrow = 2)
-ggsave(filename = "Plots/Combine.jpeg",gall)
+ggsave(filename = "Combine.jpeg",gall)
