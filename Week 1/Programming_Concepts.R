@@ -218,9 +218,11 @@ B <- list(A,d) #list and data frame in the list
 print(B)
 
 ####If and else####
-A <- 0/0 #Assign the input here
+A <- NA #Assign the input here
 
 if(!is.numeric(A)){
+  print("A is not a number")
+}else if(is.nan(A)){  
   print("A is not a number")
 }else if(A %% 2 == 0){
   print("A is even")
